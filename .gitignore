@@ -1,0 +1,28 @@
+# ===== Python =====
+.venv/
+_pycache_/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Secretos (CRITICO) =====
+.env
+*.env
+!.env.example
+
+# ===== Node/Frontend =====
+node_modules/
+dist/
+.vite/
+
+# ===== IDEs y sistema =====
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# ===== Modelos de Hugging Face =====
+.cache/
+models/
